@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="array0">
+        <item>Door tumse rahun to be chainiyan</item>
+        <item>pass aaun to badhti hai betabiyan</item>
+        <item>ho na jaye kahin tu mujsejuda</item>
+        <item>ho na jaye kahin tu mujhse judaa</item>
+        <item>aisi baton se dil darta hai</item>
+        <item>o jaana aisi baton se dil darta</item>
+    </array>
+
+    <array name="array1">
+        <item>Ek mulaqat ho tu mere pass ho</item>
+        <item>jeene ki wajah tum bano tum bano</item>
+        <item>ban ke tu rahbar mujhko</item>
+        <item>mila hai tu mil gaya main muqammal</item>
+        <item>hua ek mulaqat</item>
+        <item>zaroori he zaroori jine ke liye</item>
+    </array>
+
+
+    <array name="array2">
+        <item>Kahi kisi bhi gali me jau me Teri khusboo se</item>
+        <item>takrau me Har raat jo aata hai mujhe Voh</item>
+        <item>khwaab tu Tera mera milna dastoor</item>
+        <item>hai Tere hone se mujhme noor hai Me hu suuna</item>
+        <item>sa ek aasman Mehtaab tu</item>
+        <item>sa ek aasman Mehtaab tu</item>
+    </array>
+
+
+    <array name="array3">
+        <item>Aankhein moonde to Jaane</item>
+        <item>kisey dhoondhe Ki soya jaaye na Ki</item>
+        <item>soya jaaye na...Kisey dhoondhe Ye</item>
+        <item>khwahishon ki boondein Ki soya jaaye na</item>
+        <item>Ki soya jaaye na Maano nindiya</item>
+        <item>piroya jaaye na Maano</item>
+    </array>
+
+
+    <array name="array4">
+        <item>Kisi khoobsurat paari jaisi hogi</item>
+        <item>mujhe kya pataa dilruba kaisi hogi</item>
+        <item>sochta hoon tujhe chahata hoon tujhe dil mera</item>
+        <item>keh raha saare fasley mitaana o o</item>
+        <item>jaane jaana dhoondhe tujhe deewana sapnoo mein</item>
+        <item>roz aaye aa zindagi mein aa na o o</item>
+    </array>
+
+
+    <array name="array5">
+        <item>Main dekhun teri photo Sau sau baar kude</item>
+        <item>Main dekhun teri photo Sau sau baar kude</item>
+        <item>Ke uthde tufaan seene vich sau baar kude</item>
+        <item>Ke uthde tufaan seene vich Sau sau baar kude</item>
+        <item>Tu sapne mein aa hi jaati hai</item>
+        <item>Tu neend udaa hi jaati hai</item>
+    </array>
+
+
+    <array name="array6">
+        <item>Sakhiyaan ne mainu mehne maar diyan</item>
+        <item>Uddiyan ne channa gallan pyar diyan</item>
+        <item>Shaam nu tu kithe kihde naal hona aa</item>
+        <item>Vekhiyan ve photoan main car diyan</item>
+        <item>Mainu dar jeha lagda ae Dil tutt na jaye vichara</item>
+        <item>Tere yaar bathere ne Mera tu hi ae bas yaara</item>
+    </array>
+
+    <array name="array7">
+        <item>Aaja doob jaaun teri aankhon ke ocean mein</item>
+        <item>Slow motion mein...</item>
+        <item>Aaja doob jaaun teri aankhon ke ocean mein</item>
+        <item>Slow motion mein...</item>
+        <item>Aaj ki shaam lage picture ka scene koi</item>
+        <item>Main bhi rangeen lagun tu bhi shauqeen koi</item>
+    </array>
+
+
+    <array name="array8">
+        <item>Tere bina jeena sazaa ho gaya Ve saanu</item>
+        <item>Ishq tere da</item>
+        <item>Nasha ho gaya ni saanu</item>
+        <item>Ishq tere da</item>
+        <item>Nasha ho gaya ni sada</item>
+        <item>Tere bina jeena saza ho gayaa</item>
+
+    </array>
+
+
+    <array name="array9">
+        <item>Badle mein main tere Jo Khuda khud bhi de</item>
+        <item>Jannatein sach kahoon chhod doon</item>
+        <item>Tumse zyada main na jaanu</item>
+        <item>Tumse khudko main pehchaanu</item>
+        <item>Tumko bas main</item>
+        <item>apna maanu mahiya</item>
+    </array>
+
+
+    <array name="array10">
+        <item>O maahi ve.. o maahi ve..</item>
+        <item>Maahi mainu chhaddeyo naa</item>
+        <item>Ke tere bin dil nahio lagna</item>
+        <item>Jithe vi tu chalna ae</item>
+        <item>Maahi main tere piche piche chalna</item>
+        <item>Tu jee sakdi nai</item>
+    </array>
+
+    <array name="array11">
+        <item>Wo mere aane pe khill jana tera wo mere</item>
+        <item>jane pe chidh jana tera wo</item>
+        <item>mere chhu ne pe chhil jana tera yaad </item>
+        <item>hai na ooo..</item>
+        <item>pass aane pe pighal jana tera</item>
+        <item>bund bund mujhpe baras jana tera</item>
+    </array>
+
+
+    <array name="colorarray">
+        <item>e00049</item>
+        <item>de007b</item>
+        <item>7a137f</item>
+        <item>501c80</item>
+        <item>004297</item>
+        <item>005eb0</item>
+        <item>009fee</item>
+        <item>009c8b</item>
+        <item>00993b</item>
+        <item>3ba933</item>
+        <item>80bd26</item>
+        <item>fff000</item>
+        <item>f07f0a</item>
+        <item>e74d15</item>
+        <item>e0001b</item>
+        <item>304ffe</item>
+        <item>1565c0</item>
+        <item>9c27b0</item>
+        <item>18ffff</item>
+        <item>eeff41</item>
+        <item>0000ff</item>
+        <item>ff00ff</item>
+        <item>3e2723</item>
+        <item>ff3d00</item>
+        <item>d500f9</item>
+        <item>ff1744</item>
+        <item>f44336</item>
+        <item>f4511e</item>
+        <item>212121</item>
+        <item>ffff00</item>
+        <item>eeff41</item>
+        <item>448aff</item>
+        <item>9c27b0</item>
+        <item>ef5350</item>
+        <item>b388ff</item>
+        <item>ffab40</item>
+    </array>
+    <array name="fontcolorarray">
+        <item>450014</item>
+        <item>53002e</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>605a00</item>
+        <item>6f3800</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>000000</item>
+        <item>000000</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>bcaaa4</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>000000</item>
+        <item>6f6800</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>ffffff</item>
+        <item>683a00</item>
+    </array>
+</resources>

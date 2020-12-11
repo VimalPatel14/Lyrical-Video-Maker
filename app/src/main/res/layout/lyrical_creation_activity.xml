@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewUpload"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="My Video"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_done" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/fbadd"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layoutToolbar"
+        android:layout_height="52dp">
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+
+    <GridView
+        android:id="@+id/GridViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fbadd"
+        android:layout_above="@+id/bottom"
+        android:numColumns="2"
+        android:padding="3dp"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_footer"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_vertical_slide_panel2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/fbadd"
+        android:layout_above="@+id/bottom"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:singleLine="true"
+            android:text="Album not Created yet..!"
+            android:textColor="#ff999999" />
+    </LinearLayout>
+
+</RelativeLayout>

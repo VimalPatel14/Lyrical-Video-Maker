@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/progbg"
+    android:gravity="top|center_vertical|center_horizontal|center">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="top|center_vertical|center_horizontal|center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/circularProgress"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:visibility="visible"
+        app:indicatorColor="@color/colorPrimary"
+        app:indicatorName="PacmanIndicator" />
+
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circularProgress"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProgress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProgress"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Please wait......"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProgress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProgress2"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Its take a few seconds"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProgress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProgress1"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Video will be complete"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            ads:adSize="MEDIUM_RECTANGLE"
+            ads:adUnitId="@string/banner_footer" />
+    </LinearLayout>
+</RelativeLayout>

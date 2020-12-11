@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/ivBtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="Select Lyrics"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivBtnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/layoutToolbar"
+        android:id="@+id/fbaddd"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/listview_songs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/fbaddd"
+        android:layout_marginRight="15dp"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_footer">
+
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+</RelativeLayout>

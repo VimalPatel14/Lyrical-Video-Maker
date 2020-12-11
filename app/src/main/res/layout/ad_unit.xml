@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_unit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/amber_A700"
+            android:padding="3dp"
+            android:id="@+id/adtxt"
+            android:text="Ad"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_below="@+id/adtxt"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <com.facebook.ads.AdIconView
+                    android:id="@+id/native_ad_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+                    <TextView
+                        android:id="@+id/native_ad_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/native_ad_sponsored_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ad_choices_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal" />
+
+            </LinearLayout>
+
+            <com.facebook.ads.MediaView
+                android:id="@+id/native_ad_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/native_ad_social_context"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/native_ad_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:lines="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/native_ad_call_to_action"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="#4286F4"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lyrical Video Status Maker With Music</string>
+    <string name="search_menu_title">Search</string>
+    <string name="share_msg">Download</string>
+    <string name="shipped_ffmpeg_version">n2.4.2</string>
+    <string name="artist_name">Movie Title</string>
+
+    <string name="native_fb"></string>
+    <string name="interstitial_full_screen_fb"></string>
+    <string name="banner_ad_fb"></string>
+    <string name="medium_fb"></string>
+    <string name="device_id"></string>
+
+
+
+    <string name="banner_footer"></string>
+    <string name="interstitial_full_screen_ad"></string>
+</resources>

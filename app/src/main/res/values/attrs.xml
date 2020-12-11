@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Anniversary_ExpandIconView">
+        <attr name="eiv_roundedCorners" format="boolean" />
+        <attr name="eiv_switchColor" format="boolean" />
+        <attr name="eiv_color" format="color" />
+        <attr name="eiv_colorMore" format="color" />
+        <attr name="eiv_colorLess" format="color" />
+        <attr name="eiv_colorIntermediate" format="color" />
+        <attr name="eiv_animationDuration" format="integer" />
+        <attr name="eiv_padding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView1">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularFillableLoaders">
+        <attr name="cfl_progress" format="integer" />
+        <attr name="cfl_border" format="boolean" />
+        <attr name="cfl_border_width" format="dimension" />
+        <attr name="cfl_wave_color" format="color" />
+        <attr name="cfl_wave_amplitude" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PVEMLyricalStatusMaker_TextViewV">
+        <attr name="isAnimate" format="boolean"/>
+        <attr name="animateType" format="enum">
+            <enum name="scale" value="0"/>
+            <enum name="evaporate" value="1"/>
+            <enum name="fall" value="2"/>
+            <enum name="sparkle" value="3"/>
+            <enum name="anvil" value="4"/>
+            <enum name="line" value="5"/>
+            <enum name="pixelate" value="6"/>
+            <enum name="typer" value="7"/>
+            <enum name="rainbow" value="8"/>
+        </attr>
+        <attr name="fontAsset" format="string"/>
+    </declare-styleable>
+
+   <!-- <declare-styleable name="ProportionalRelativeLayout">
+        <attr name="scaleWidth" format="float" />
+        <attr name="scaleHeight" format="float" />
+    </declare-styleable>-->
+    <declare-styleable name="ScaleLayout">
+        <attr name="scaleWidth" format="float"/>
+        <attr name="scaleHeight" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="Anniversary_RangeBar">
+        <attr name="tickCount" format="integer" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="barColor" format="reference|color" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbImageNormal" format="reference" />
+        <attr name="thumbImagePressed" format="reference" />
+        <attr name="thumbColorNormal" format="reference|color" />
+        <attr name="thumbColorPressed" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="Anniversary_ScaleCardLayout">
+        <attr name="aspectRatioWidth" format="float" />
+        <attr name="aspectRatioHeight" format="float" />
+    </declare-styleable>
+    <declare-styleable name="Anniversary_VerticalSlidingPanel">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="parallaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="Anniversary_PreviewImageView"></declare-styleable>
+    <declare-styleable name="RoundedImageView"></declare-styleable>
+</resources>

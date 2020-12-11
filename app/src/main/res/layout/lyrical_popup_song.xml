@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transpatrent_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textViewMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Song"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_play_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <SeekBar
+                android:id="@+id/seekVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="3dp"
+                android:minHeight="3dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:progressDrawable="@drawable/thumblerseek"
+                android:thumb="@drawable/round"
+                android:thumbOffset="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textviewlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSeekLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_toRightOf="@+id/ivBtnPreview2"
+                android:text="00:00"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvSeekRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="10dp"
+                android:text="00:00"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/cancle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/roundedcornershape">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Cancel"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/btn_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/roundedcornershape">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Next"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

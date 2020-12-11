@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:scaleType="centerCrop"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffab00"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/ad"
+        android:text="Ad"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/banner_containerexit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="top|center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you sure you want to exit?"
+                android:textColor="#7f8c8d"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exit"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
