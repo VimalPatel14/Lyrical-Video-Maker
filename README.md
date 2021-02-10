@@ -2,7 +2,7 @@
 
 Download From Play Store: <a href="https://play.google.com/store/apps/details?id=com.photovideoeditormaker.lyricalvideostatusmaker" >Lyrical Video Status Maker With Music</a>
 
-# Preview Image
+# Preview Images
 
 ![SC1](https://play-lh.googleusercontent.com/wJVus_NhXXXa5CvptckqZtAjGl8XIvgbwgeGtmEeRnoBcQlzmFDfRiFACdpwG5quDQ=w720-h310-rw)
 
